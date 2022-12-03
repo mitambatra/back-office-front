@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Calibri;
+  src: url(./fonts/Calibri/Calibri\ Regular.ttf);
+}
+
+.App {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  font-family: Calibri;
+  align-items: center;
+}
+
+header a {
+  padding: 10px;
+  color: #252122;
+  text-decoration: none;
+}
+
+header a:hover {
+  transition-duration: 400ms;
+  transform: scale(1.03);
+}
+
+main, footer {
+  margin: 1.5% 0;
+}
