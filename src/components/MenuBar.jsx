@@ -74,6 +74,22 @@ function MenuBar() {
         </Button>
       </Link>
 
+      <Link to='/validate'>
+        <Button
+          variant="outlined"
+          startIcon={<Update />}
+          sx={{
+            color: "#252122",
+            borderColor: "#252122",
+            '&:hover': {
+              borderColor: "#252122"
+            }
+          }}
+        >
+          Valider
+        </Button>
+      </Link>
+
     </Stack>
   )
 }

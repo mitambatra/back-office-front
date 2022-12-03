@@ -3,7 +3,6 @@ import Logo from './Logo';
 import MenuBar from './MenuBar';
 import { AppBar, Toolbar, Avatar, Container } from '@mui/material';
 
-
 function Header() {
 
     return (
