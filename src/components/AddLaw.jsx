@@ -148,7 +148,7 @@ function AddLaw() {
     const handleSubmit = async (event) => {
         event.preventDefault();
         const res = await axios.post("http://35.91.152.177:3001/api/new-data",values)
-        console.log(res);
+        alert("Ajouter avec success")
     }
 
     return (
